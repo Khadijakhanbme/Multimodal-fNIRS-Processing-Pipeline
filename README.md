@@ -155,8 +155,6 @@ The example below illustrates representative group-level haemodynamic response v
 │   └── hrf_example.png
 │
 ├── README.md
-├── LICENSE
-├── requirements.txt
 └── .gitignore
 ```
 
