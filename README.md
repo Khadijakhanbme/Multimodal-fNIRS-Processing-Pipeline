@@ -9,18 +9,33 @@ This repository contains the processing pipeline developed during my **Erasmus M
 The framework extends conventional fNIRS signal processing by integrating synchronized **photoplethysmography (PPG)**, **inertial measurement unit (IMU)**, and **task-marker** data to improve signal quality assessment, motion artifact handling, and haemodynamic response estimation.
 
 ---
+
+## System Overview
+
+The processing pipeline was developed for a custom wearable multimodal fNIRS system designed for prefrontal haemodynamic monitoring during cognitive tasks.
+
+The sensing hardware integrates:
+
+- **fNIRS subsystem**
+  - 1 short-separation detector (**PD0**) for superficial physiology measurement
+  - 3 long-separation detectors:
+    - **PD1:** 25 mm source–detector distance
+    - **PD2:** 30 mm source–detector distance
+    - **PD3:** 35 mm source–detector distance
+  - Near-infrared wavelengths (740 and 850nm) for haemodynamic measurements
+
+- **PPG subsystem**
+  - Three-wavelength reflective PPG sensor
+  - The **red wavelength (≈635 nm)** was used in this work as a physiological reference signal for cardiac validation during quality screening and nuisance regression.
+
+- **Motion sensing**
+  - Integrated **3-axis accelerometer (IMU)** used for motion artifact detection and correction.
+
+The multimodal measurements were synchronously acquired during an **N-back working memory experiment**, enabling integrated signal quality assessment, motion correction, and physiological noise regression.
+
 # Dataset
 
-The processing pipeline was developed and evaluated using multimodal recordings collected from **13 healthy participants** during a working memory experiment (https://github.com/Khadijakhanbme/N-back-Cognitive-Load-Task).
-
-The acquisition protocol included:
-
-- Wearable multimodal fNIRS recordings
-- Photoplethysmography (PPG)
-- Inertial Measurement Unit (IMU)
-- Event markers (rest, 0 back and 2 back)
-
-Due to ongoing research and manuscript preparation, the dataset is **not publicly available** at this time.
+The processing pipeline was developed and evaluated using multimodal recordings collected from **13 healthy participants** during a working memory experiment (https://github.com/Khadijakhanbme/N-back-Cognitive-Load-Task.Due to ongoing research and manuscript preparation, the dataset is **not publicly available** at this time.
 
 # Features
 
