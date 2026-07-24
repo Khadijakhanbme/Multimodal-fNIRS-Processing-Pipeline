@@ -140,7 +140,9 @@ The example below illustrates representative group-level haemodynamic response v
 │   ├── 5b.Motion_Correction.py
 │   ├── 5c.OD_Conversion_Bandpass.py
 │   ├── 6.GLM_cases_SSR.py
-│   └── 7.hrf_grid_GLM.py
+    └── 7.hrf_grid_GLM.py
+│   └── My_pipeline_validation.py
+
 │
 ├── docs/
 │   ├── processing_pipeline.png
