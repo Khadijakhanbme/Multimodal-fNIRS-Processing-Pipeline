@@ -167,13 +167,6 @@ The example below illustrates representative group-level haemodynamic response v
 - Pandas
 - SciPy
 - Matplotlib
-
-Install dependencies using:
-
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 # Project Background
