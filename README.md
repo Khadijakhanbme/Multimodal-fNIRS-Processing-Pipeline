@@ -110,7 +110,7 @@ Task-evoked haemodynamic responses are estimated using the General Linear Model 
 The figure below illustrates representative GLM outputs produced by different processing configurations.
 
 <p align="center">
-  <img src="docs/glm_analysis_example.png" width="900">
+  <img src="docs/Representative- GLM Case.png" width="900">
 </p>
 
 ---
