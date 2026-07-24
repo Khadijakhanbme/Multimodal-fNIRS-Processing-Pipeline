@@ -61,8 +61,12 @@ The processing pipeline was developed and evaluated using multimodal recordings 
 
 The complete processing workflow implemented in Python is illustrated below.
 
+## Processing Pipeline
+
+The complete multimodal signal processing workflow implemented in Python is illustrated below.
+
 <p align="center">
-  <img src="docs/processing_pipeline.png" width="900">
+  <img src="docs/processing_pipeline.png" width="850">
 </p>
 
 The pipeline integrates synchronized **fNIRS**, **PPG**, **IMU**, and **task-marker** data to perform signal quality assessment, motion handling, haemodynamic estimation, and statistical analysis of task-evoked brain responses.
