@@ -189,14 +189,10 @@ Documentation and additional examples will be expanded in future releases.
 Planned improvements include:
 
 - Enhanced documentation
-- Configuration-based processing
 - Example datasets
 - Modular package structure
 - Automated processing workflow
-- Companion journal publication and citation
+- tCCA for mulitimodal integration in GLM
 
 ---
 
-# Citation
-
-If you find this repository useful in your research, please consider citing the accompanying publication (to be added upon publication).
