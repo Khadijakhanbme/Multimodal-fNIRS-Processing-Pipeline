@@ -35,7 +35,7 @@ The multimodal measurements were synchronously acquired during an **N-back worki
 
 # Dataset
 
-The processing pipeline was developed and evaluated using multimodal recordings collected from **13 healthy participants** during a working memory experiment (https://github.com/Khadijakhanbme/N-back-Cognitive-Load-Task.Due to ongoing research and manuscript preparation, the dataset is **not publicly available** at this time.
+The processing pipeline was developed and evaluated using multimodal recordings collected from **13 healthy participants** during a working memory experiment (https://github.com/Khadijakhanbme/N-back-Cognitive-Load-Task). Due to ongoing research and manuscript preparation, the dataset is **not publicly available** at this time.
 
 # Features
 
@@ -60,10 +60,6 @@ The processing pipeline was developed and evaluated using multimodal recordings 
 # Processing Pipeline
 
 The complete processing workflow implemented in Python is illustrated below.
-
-## Processing Pipeline
-
-The complete multimodal signal processing workflow implemented in Python is illustrated below.
 
 <p align="center">
   <img src="docs/processing_pipeline.png" width="850">
@@ -171,7 +167,7 @@ The example below illustrates representative group-level haemodynamic response v
 
 # Project Background
 
-This repository contains the signal processing framework developed during my Master's thesis, focused on the evaluation of a compact multimodal fNIRS sensor developed at the **Electronics and Informatics Department (ETRO), Vrije Universiteit Brussel (VUB)**.
+This repository contains the signal processing framework developed during my Master's thesis, focused on the evaluation of a compact multimodal fNIRS sensor, developed at the **Electronics and Informatics Department (ETRO), Vrije Universiteit Brussel (VUB)**.
 
 Documentation and additional examples will be expanded in future releases.
 
