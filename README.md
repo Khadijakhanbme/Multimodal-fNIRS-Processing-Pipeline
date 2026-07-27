@@ -12,7 +12,7 @@ The framework extends conventional fNIRS signal processing by integrating synchr
 
 ## System Overview
 
-The processing pipeline was developed for a custom wearable multimodal fNIRS system designed for prefrontal haemodynamic monitoring during cognitive tasks.
+The processing pipeline was developed for a custom wearable multimodal fNIRS system designed for prefrontal haemodynamic monitoring during cognitive and motor tasks.
 
 The sensing hardware integrates:
 
